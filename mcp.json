@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "social-research": {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=muhammadafzal/facebook-ads-library-scraper,muhammadafzal/tiktok-ads-library-scraper,muhammadafzal/linkedin-ads-library-scraper,muhammadafzal/google-ads-library-scraper,muhammadafzal/youtube-video-channel-scraper,muhammadafzal/youtube-transcript-extractor,muhammadafzal/instagram-trending-reels-research-scraper,muhammadafzal/threads-posts-profiles-search-scraper,muhammadafzal/reddit-buyer-intent-brand-monitor,muhammadafzal/reddit-comment-scraper"
+    }
+  }
+}

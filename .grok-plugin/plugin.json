@@ -1,0 +1,31 @@
+{
+  "name": "social-media-ad-research",
+  "version": "1.0.0",
+  "description": "Research competitors' ads and social content from your AI agent: search the Meta (Facebook and Instagram), TikTok, LinkedIn and Google ad libraries, YouTube videos, channels and transcripts, Instagram's trending Reels, Threads posts and Reddit discussions. Find the longest-running ads, compare creatives and offers, mine pain points and customer language from comments, and export CSV. Pay per result on your Apify account.",
+  "author": {
+    "name": "Imzlab Technologies",
+    "email": "info@imzlab.com",
+    "url": "https://imzlab.com"
+  },
+  "homepage": "https://github.com/afzalbuilds/social-media-ad-research#readme",
+  "repository": "https://github.com/afzalbuilds/social-media-ad-research",
+  "license": "MIT",
+  "keywords": [
+    "ad library",
+    "competitor ads",
+    "facebook ads library",
+    "meta ads",
+    "tiktok ads",
+    "linkedin ads",
+    "google ads transparency",
+    "youtube",
+    "youtube transcripts",
+    "instagram reels",
+    "threads",
+    "reddit",
+    "social listening",
+    "audience research",
+    "marketing research",
+    "apify"
+  ]
+}

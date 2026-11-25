@@ -1,0 +1,54 @@
+{
+  "name": "social-media-ad-research",
+  "version": "1.0.0",
+  "description": "Research competitors' ads and social content from your AI agent: search the Meta (Facebook and Instagram), TikTok, LinkedIn and Google ad libraries, YouTube videos, channels and transcripts, Instagram's trending Reels, Threads posts and Reddit discussions. Find the longest-running ads, compare creatives and offers, mine pain points and customer language from comments, and export CSV. Pay per result on your Apify account.",
+  "author": {
+    "name": "Imzlab Technologies",
+    "email": "info@imzlab.com",
+    "url": "https://imzlab.com"
+  },
+  "homepage": "https://github.com/afzalbuilds/social-media-ad-research#readme",
+  "repository": "https://github.com/afzalbuilds/social-media-ad-research",
+  "license": "MIT",
+  "keywords": [
+    "ad library",
+    "competitor ads",
+    "facebook ads library",
+    "meta ads",
+    "tiktok ads",
+    "linkedin ads",
+    "google ads transparency",
+    "youtube",
+    "youtube transcripts",
+    "instagram reels",
+    "threads",
+    "reddit",
+    "social listening",
+    "audience research",
+    "marketing research",
+    "apify"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Social Media & Ad Research",
+    "shortDescription": "Competitor ads, social posts",
+    "longDescription": "Research competitors' ads and social content from your AI agent: search the Meta (Facebook and Instagram), TikTok, LinkedIn and Google ad libraries, YouTube videos, channels and transcripts, Instagram's trending Reels, Threads posts and Reddit discussions. Find the longest-running ads, compare creatives and offers, mine pain points and customer language from comments, and export CSV. Pay per result on your Apify account. Includes 4 skills (audience-insights, competitor-ad-research, social-content-research, social-research-cost-estimate) and Apify's hosted MCP server limited to Imzlab's Actors. After installing, run `codex mcp login social-research` to sign in to Apify in the browser.",
+    "developerName": "Imzlab Technologies",
+    "category": "Data & Analytics",
+    "capabilities": [
+      "Read"
+    ],
+    "defaultPrompt": [
+      "What ads is Allbirds running on Meta, TikTok, LinkedIn and Google right now?",
+      "Top YouTube videos about espresso machine reviews this year, with views.",
+      "What do people on Reddit complain about with budget espresso machines?"
+    ],
+    "websiteURL": "https://github.com/afzalbuilds/social-media-ad-research#readme",
+    "privacyPolicyURL": "https://imzlab.com/privacy#social-research",
+    "termsOfServiceURL": "https://imzlab.com/terms#social-research",
+    "brandColor": "#5C1F4F",
+    "logo": "./assets/icon.png",
+    "composerIcon": "./assets/icon.png"
+  }
+}

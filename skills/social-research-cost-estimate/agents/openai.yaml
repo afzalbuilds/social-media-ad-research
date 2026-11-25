@@ -1,0 +1,14 @@
+# Generated copy of the Claude plugin file; edit the original in commands/ or agents/ and regenerate.
+interface:
+  display_name: "Social Research Cost Estimate"
+  short_description: "Estimate the Apify cost of a research job"
+  brand_color: "#5C1F4F"
+  default_prompt: "Use $social-research-cost-estimate to price a weekly report on three competitors."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "social-research"
+      description: "Apify's hosted MCP server limited to Imzlab Technologies' Actors (sign in with Apify)"
+      transport: "streamable_http"
+      url: "https://mcp.apify.com/?tools=muhammadafzal/facebook-ads-library-scraper,muhammadafzal/tiktok-ads-library-scraper,muhammadafzal/linkedin-ads-library-scraper,muhammadafzal/google-ads-library-scraper,muhammadafzal/youtube-video-channel-scraper,muhammadafzal/youtube-transcript-extractor,muhammadafzal/instagram-trending-reels-research-scraper,muhammadafzal/threads-posts-profiles-search-scraper,muhammadafzal/reddit-buyer-intent-brand-monitor,muhammadafzal/reddit-comment-scraper"

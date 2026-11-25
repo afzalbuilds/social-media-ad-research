@@ -1,0 +1,26 @@
+{
+  "name": "imzlab-social-research",
+  "owner": {
+    "name": "Imzlab Technologies",
+    "email": "info@imzlab.com"
+  },
+  "description": "Imzlab Technologies plugins for Claude: social media and ad library research.",
+  "plugins": [
+    {
+      "name": "social-media-ad-research",
+      "source": "./",
+      "description": "Social Media & Ad Library Research: Meta, TikTok, LinkedIn and Google ad libraries, YouTube, Instagram Reels, Threads and Reddit inside Claude. Competitor ads, content benchmarks, audience pain points, CSV export. Pay per result on Apify.",
+      "category": "productivity",
+      "tags": [
+        "ad library",
+        "competitor ads",
+        "social media",
+        "youtube",
+        "reddit",
+        "threads",
+        "marketing",
+        "audience research"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+---
+description: "Find the top YouTube videos, trending Instagram Reels, Threads posts and Reddit threads for a topic or creator"
+argument-hint: "<topic, brand or @creator> [platforms] [count]"
+---
+
+Research social content using the `social-content-research` skill from this plugin for: $ARGUMENTS
+
+Work out the topic, brand or creator, the platforms (YouTube plus Reddit for a topic, YouTube channel plus Threads for a brand or creator, unless named) and the count (default 20 per platform), estimate the cost and ask first when it is above USD 0.50, run the Actors through the social-research MCP server, wait for every run to finish, and present one table per platform, the patterns, two to five content ideas and the Apify cost line.
